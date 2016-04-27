@@ -58,7 +58,7 @@ a img {
 }
 aside > section {
 	border: thin solid;
-	margin: 2em 0;
+	margin: 2em;
 	padding: 1em;
 	max-width: 200px;
 }
@@ -76,6 +76,15 @@ aside > section {
 	-ms-flex-pack: distribute;
 	-moz-box-pack: justify;
 	justify-content: space-around;
+}
+@media (min-width: 1130px) {
+	aside {
+		-webkit-box-orient: vertical;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-box-orient: vertical;
+		flex-direction: column;
+	}
 }
 header > .logo {
 	display: block;
