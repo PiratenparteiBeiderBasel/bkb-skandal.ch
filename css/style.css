@@ -14,8 +14,11 @@ body {
 	background-color: rgb(245, 244, 244);
 	color: rgb(102, 102, 102);
 }
-header, main, footer > .flex {
-	padding: 2rem 1rem;
+header, article, footer > .flex {
+	padding: 0 1rem;
+}
+header {
+	padding: 1rem 1rem 0;
 }
 article {
 	-webkit-hyphens: auto;
@@ -90,7 +93,7 @@ header > .logo {
 	display: block;
 	margin: 0 auto;
 	max-width: 800px;
-	max-height: 25vh;
+	max-height: 40vh;
 }
 footer > .flex {
 	-webkit-align-items: center;
@@ -98,6 +101,7 @@ footer > .flex {
 	-ms-flex-align: center;
 	-moz-box-align: center;
 	align-items: center;
+	margin-top: 2rem;
 }
 footer > .flex > .partner > img {
 	margin: 1em;
