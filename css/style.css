@@ -89,9 +89,14 @@ footer > .flex {
 	-moz-box-align: center;
 	align-items: center;
 }
-footer > .flex > .partner {
+footer > .flex > .partner > img {
 	margin: 1em;
 	width: 200px;
+	max-height: 200px;
+}
+footer > .flex > .partner > .horizontal {
+	width: auto;
+	height: 150px;
 }
 footer > .credits {
 	margin: 0;
