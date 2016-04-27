@@ -65,6 +65,9 @@ aside > section {
 	padding: 1em;
 	max-width: 200px;
 }
+article > section {
+	margin-bottom: 3rem;
+}
 .flex {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -101,7 +104,7 @@ footer > .flex {
 	-ms-flex-align: center;
 	-moz-box-align: center;
 	align-items: center;
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 footer > .flex > .partner > img {
 	margin: 1em;
