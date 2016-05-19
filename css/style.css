@@ -126,3 +126,6 @@ footer > .credits > li:nth-child(even)::before {
 	content: "|";
 	margin: 0 1ch;
 }
+.fotoaktion {
+	max-width: 800px;
+}
