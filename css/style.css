@@ -92,7 +92,7 @@ article > section {
 		flex-direction: column;
 	}
 }
-header > .logo {
+header > a > .logo {
 	display: block;
 	margin: 0 auto;
 	max-width: 800px;
